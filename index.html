@@ -4,39 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Decodificador</title>
 </head>
 <body>
-    <header>
-        <a href="#" target="_blank">
-            <img src="./assets/Logo.svg" alt="Logo Alura">
-        </a>
-    </header>
-    <main>
-        <section>
-            <textarea name="mensagem" cols="100" rows="30" placeholder="Digite seu texto ou palavra que deseja criptografar ou descriptografar"></textarea>
-            <div class="aviso">
+    <main class="container">
+        <section class="container__left">
+            <a href="https://www.alura.com.br/" target="_blank" class="container__left__logo">
+                <img src="./assets/Logo.svg" alt="Logo Alura">
+            </a>
+            <textarea name="textarea" id="textarea" cols="10" rows="12" class="container__left__textarea" placeholder="Digite seu texto ou palavra que deseja criptografar ou descriptografar"></textarea>
+            <div class="container__left__warning">
                 <img src="./assets/info.svg" alt="Icone de Informacao">
                 <p>Apenas letras minúsculas e sem acento.</p>
             </div>
-            <div class="botoes">
-                <button>Criptografar</button>
-                <button>Descriptografar</button>
+            <div class="container__left__buttons">
+                <a href="#" class="container__left__buttons__cripto" onclick="">Criptografar</a>
+                <a href="#" class="container__left__buttons__descripto" onclick="">Descriptografar</a>
             </div>
         </section>
-        <section>
-            <div>
-                <img src="./assets/pessoa-com-lupa.svg" alt="Imagem de uma pessoa com uma lupa">
-                <div>
-                    <h2>Nenhuma mensagem encontrada</h2>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-                </div>
+        <section class="container__right">
+            <img src="./assets/pessoa-com-lupa.svg" alt="Imagem de uma pessoa com uma lupa">
+            <div class="container__right__warning">
+                <h2 class="container__right__warning__title">Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
-            <button>Copiar Mensagem</button>
         </section>
     </main>
     <footer>
-        <p>Desenvolvido por Danilo C. Macedo</p>
+        <p>Desenvolvido por <a href="https://github.com/dcmacedo" target="_blank">Danilo C. Macedo</a></p>
     </footer>
 </body>
 </html>
