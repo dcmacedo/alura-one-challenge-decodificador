@@ -201,11 +201,11 @@ footer > p > a {
   }
   .container__left__warning,
   .container__left__buttons {
-    padding: 0 0 0 2.5rem;
+    padding: 0 1rem;
   }
   .container__left__warning,
   .container__left__buttons {
-    margin: 1rem 0 1rem 1rem;
+    margin: 0.5rem 0;
   }
   .container__right {
     width: 90%;
