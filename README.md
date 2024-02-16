@@ -8,6 +8,11 @@ Este é um projeto desenvolvido em HTML, CSS e JavaScript. Este projeto oferece 
 - Interface amigável e intuitiva para facilitar a interação.
 - Ferramentas educativas para entender os conceitos por trás da criptografia.
 
+## O Que Aprendi
+
+- Aprimorei minhas habilidades na manipulação de elementos do DOM.
+- Desenvolvi minha lógica de programação ao explorar os processos de codificação e decodificação de mensagens.
+
 ## Como usar
 
 1. Clone este repositório em sua máquina local.
