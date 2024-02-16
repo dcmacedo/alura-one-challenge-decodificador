@@ -1,6 +1,6 @@
 # Criptografia de Textos
 
-Este é um projeto desenvolvido em HTML, CSS e JavaScript. Este projeto oferece uma plataforma interativa para aprender e experimentar criptografia e descriptografia de textos. Divirta-se explorando o mundo da segurança da informação! 🛡️🔒
+Este é um projeto desenvolvido em HTML, CSS e JavaScript. Este projeto oferece uma plataforma interativa para aprender e experimentar criptografia e descriptografia de textos e faz parte do desafio do [Challenge ONE - Iniciante em Programação da Alura](https://www.alura.com.br/challenges/challenge-one-logica). Divirta-se explorando o mundo da segurança da informação! 🛡️🔒
 
 ## Funcionalidades
 
