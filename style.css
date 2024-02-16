@@ -58,6 +58,7 @@ body {
   padding: 1rem;
   resize: none;
   border: none;
+  outline: none;
   background-color: var(--light-blue-100);
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
@@ -94,7 +95,7 @@ body {
 .container__left__buttons__descripto,
 .container__right__copy {
   padding: 1.5rem;
-  width: 328px;
+  width: 16.5rem;
   border-radius: 24px;
   text-align: center;
   text-decoration: none;
@@ -121,6 +122,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  width: auto;
   height: 90%;
   margin: 0 2rem 0 0;
   padding: 1rem;
@@ -130,14 +132,14 @@ body {
 }
 
 .container__right__img {
-  width: 18rem;
-  margin: 2rem auto;
+  width: 13rem;
+  margin: 1rem auto;
 }
 
 .container__right__warning {
   display: flex;
   flex-direction: column;
-  margin: 4rem auto;
+  margin: 2rem auto;
   gap: 1rem;
   text-align: center;
   letter-spacing: 1px;
@@ -149,16 +151,17 @@ body {
 
 .container__right__resultado {
   display: none;
-  margin: 1rem;
-  padding: 1.2rem;
-  font-size: 1.1rem;
+  width: auto;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 1rem;
   text-align: justify;
-  letter-spacing: 1px;
 }
 
 .container__right__copy {
   display: none;
   margin: 1rem 0;
+  justify-content: center;
   background-color: var(--light-blue-300);
   border: 1px solid var(--dark-blue-200);
   color: var(--dark-blue-300);
